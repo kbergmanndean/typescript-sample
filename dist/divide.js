@@ -1,7 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.divide = void 0;
+exports.divideByTwo = void 0;
 function divide(a, b) {
     return a / b;
 }
-exports.divide = divide;
+exports.default = divide;
+function divideByTwo(num) {
+    return divide(num, 2);
+}
+exports.divideByTwo = divideByTwo;
