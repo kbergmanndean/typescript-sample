@@ -1,8 +1,5 @@
- export interface Profile {
+ export default interface Profile {
     name: string;
     age?: number;
 };
 
-const profile: Profile = {
-    name: "Joe"
-}
