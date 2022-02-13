@@ -8,3 +8,5 @@ console.log(`${a} divided by ${b} is ${divideModule.default(a,b)}`)
 const profile: Profile = {
     name: "Joe"
 }
+
+profile.name="Jim"

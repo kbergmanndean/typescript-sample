@@ -26,3 +26,4 @@ console.log(`${a} divided by ${b} is ${divideModule.default(a, b)}`);
 const profile = {
     name: "Joe"
 };
+profile.name = "Jim";
